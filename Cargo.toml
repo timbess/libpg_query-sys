@@ -2,7 +2,7 @@
 name = "libpg_query-sys"
 links = "pg_query"
 description = "FFI bindings to libpg_query-10-1.0.2"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Timothy Bess <tdbgamer@gmail.com>"]
 build = "build.rs"
 edition = "2018"
