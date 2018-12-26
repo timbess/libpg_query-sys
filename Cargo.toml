@@ -9,6 +9,10 @@ edition = "2018"
 license = "MPL-2.0"
 repository = "https://github.com/tdbgamer/libpg_query-sys"
 
+[lib]
+name = "libpg_query"
+path = "src/lib.rs"
+
 [build-dependencies]
 bindgen = "0.45.0"
 make-cmd = "0.1.0"
