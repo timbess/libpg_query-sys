@@ -11,3 +11,4 @@ repository = "https://github.com/tdbgamer/libpg_query-sys"
 
 [build-dependencies]
 bindgen = "0.45.0"
+make-cmd = "0.1.0"

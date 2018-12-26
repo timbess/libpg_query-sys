@@ -1,12 +1,15 @@
 extern crate bindgen;
 
 use std::env;
+use std::process::Command;
 use std::path::PathBuf;
 
 fn main() {
-    // The bindgen::Builder is the main entry point
-    // to bindgen, and lets you build up options for
-    // the resulting bindings.
+    Command::new("make")
+        .current_dir("./c_libs/libpg_query")
+        .output()
+        .expect("Failed to build libpg_query");
+
     println!("cargo:rustc-link-search=native={}", "./c_libs/libpg_query");
     println!("cargo:rustc-link-lib=static={}", "pg_query");
     let bindings = bindgen::Builder::default()
