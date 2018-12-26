@@ -6,7 +6,7 @@ version = "0.1.0"
 authors = ["Timothy Bess <tdbgamer@gmail.com>"]
 build = "build.rs"
 edition = "2018"
-license = "MPL20"
+license = "MPL-2.0"
 repository = "https://github.com/tdbgamer/libpg_query-sys"
 
 [build-dependencies]
