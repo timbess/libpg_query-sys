@@ -14,5 +14,5 @@ name = "libpg_query"
 path = "src/lib.rs"
 
 [build-dependencies]
-bindgen = "0.45.0"
+bindgen = "0.58.1"
 make-cmd = "0.1.0"
