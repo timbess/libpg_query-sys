@@ -6,7 +6,7 @@ version = "0.1.2"
 authors = ["Timothy Bess <tdbgamer@gmail.com>"]
 build = "build.rs"
 edition = "2018"
-license = "MPL-2.0"
+license = "BSD-3-Clause"
 repository = "https://github.com/tdbgamer/libpg_query-sys"
 
 [lib]
