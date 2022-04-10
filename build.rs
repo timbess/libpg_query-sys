@@ -17,7 +17,7 @@ fn main() {
         .expect("Failed to build libpg_query");
 
     println!("cargo:rustc-link-search=native={}", out_path.join("libpg_query").display());
-    println!("cargo:rustc-link-lib=static={}", "pg_query");
+    println!("cargo:rustc-link-lib=static=pg_query");
     let bindings = bindgen::Builder::default()
         // The input header we would like to generate
         // bindings for.
