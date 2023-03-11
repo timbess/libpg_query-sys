@@ -5,9 +5,9 @@
 
 ## 0.2.1  2022-07-01
 
-* It is now possible to set the `LIBPG_QUERY_PATH` env var when running
-  `cargo` to use the system's libpg_query header and library, rather than
-  using the vendored source.
+- It is now possible to set the `LIBPG_QUERY_PATH` env var when running
+  `cargo`. This lets you use the system's libpg_query header and library,
+  rather than using the vendored source.
 
 ## 0.2.0  2022-04-10
 
