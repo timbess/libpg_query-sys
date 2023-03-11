@@ -1,3 +1,8 @@
+## 0.3.0  2023-03-10
+
+* Bumped the version of the libpg_query library that this crate wraps to the
+  13-2.1.0 tag. Based on PR #5 from Andrew Smith.
+
 ## 0.2.1  2022-07-01
 
 * It is now possible to set the `LIBPG_QUERY_PATH` env var when running
