@@ -1,3 +1,10 @@
+## 0.3.1  2023-03-25
+
+* Upgraded the `bindgen` dependency to remove `atty` from the dependency
+  tree. The `atty` crate appears to be unmaintained and it has an open
+  security advisory,
+  [RUSTSEC-2021-0145](https://rustsec.org/advisories/RUSTSEC-2021-0145).
+
 ## 0.3.0  2023-03-10
 
 * Bumped the version of the libpg_query library that this crate wraps to the
