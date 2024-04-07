@@ -1,3 +1,8 @@
+## 0.4.0  2024-04-07
+
+* Bumped the version of the libpg_query library that this crate wraps to the
+  16-5.1.0 tag.
+
 ## 0.3.1  2023-03-25
 
 * Upgraded the `bindgen` dependency to remove `atty` from the dependency
